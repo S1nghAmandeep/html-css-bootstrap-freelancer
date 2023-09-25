@@ -1,7 +1,7 @@
 :root {
     --dark-blue:#2C3E50;
     --green:#1ABC9C;
-    --grey:3A546D;
+    --grey:#3A546D;
 }
 
 .debug .container {
@@ -17,4 +17,40 @@
 .debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
+}
+
+/* inizio sezione header */
+
+.body-header {
+    background-color: var(--dark-blue);
+    padding: 20px;
+}
+
+/* inizio sezione hero */
+
+.hero {
+    background-color: var(--green);
+    padding: 50px 0;
+}
+
+.star-border::before {
+    content: '';
+	display: inline-block;
+    width: 120px;
+    height: 3px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.star-border::after {
+    content: '';
+	display: inline-block;
+    width: 120px;
+    height: 3px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    background-color: white;
 }
