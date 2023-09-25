@@ -3,3 +3,18 @@
     --green:#1ABC9C;
     --grey:3A546D;
 }
+
+.debug .container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.debug .row {
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px;
+}
+
+.debug [class^="col"] {
+    border: 1px solid orange;
+    padding: 10px;
+}
