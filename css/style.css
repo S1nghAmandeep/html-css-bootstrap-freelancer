@@ -4,9 +4,9 @@
     --grey:#3A546D;
 }
 
-img {
+/* img {
     max-width: 100%;
-}
+} */
 
 .debug .container {
     border: 1px solid black;
@@ -84,5 +84,11 @@ img {
 }
 
 .section-portfolio {
-    padding: 50px;
+    padding: 50px 0;
+}
+
+/* inizio sezione about */
+
+.about {
+    background-color: var(--green);
 }
